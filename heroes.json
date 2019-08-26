@@ -1,0 +1,65 @@
+[
+    {
+        "name": "Ana",
+        "codename": "xxxx",
+        "primaryFire": {
+            "name": "Biotic Rifle",
+            "description": "Ana’s rifle shoots darts that can restore health to her allies or deal ongoing damage to her enemies. She can use the rifle’s scope to zoom in on targets and make highly accurate shots.",
+            "type": "projectile",
+            "projectileGravity": 0,
+            "weaponType": "rifle",
+            "scopeInTime": null,
+            "scopeOutTime": null,
+            "projectileSpeed": 125,
+            "spread": 0,
+            "ammo": 14,
+            "reloadTime": 1.5,
+            "fireRate": "1.25",
+            "damage": 70,
+            "healing": 75,
+            "dotDuration": 0.85,
+            "canHeadshot": false
+        },
+        "secondaryFire": {
+            "name": "Biotic Rifle",
+            "description": "Ana’s rifle shoots darts that can restore health to her allies or deal ongoing damage to her enemies. She can use the rifle’s scope to zoom in on targets and make highly accurate shots.",
+            "type": "hitscan",
+            "weaponType": "scope",
+            "scopeInTime": 0.25,
+            "scopeOutTime": 0.16,
+            "projectileSpeed": null,
+            "spread": 0,
+            "ammo": 14,
+            "reloadTime": 1.5,
+            "fireRate": "1.25",
+            "damage": 70,
+            "healing": 75,
+            "effectDuration": 0.85,
+            "canHeadshot": false
+        },
+        "ability1": {
+            "name": "Sleep Dart",
+            "description": "Ana fires a dart from her sidearm, rendering an enemy unconscious (though any damage will rouse them).",
+            "type": "projectile",
+            "projectileSpeed": 60,
+            "projectileGravity": 0,
+            "spread": 0,
+            "damage": 5,
+            "effectDuration": 6,
+            "canHeadshot": false,
+            "cooldown": 12
+        },
+        "ability2": {
+            "name": "Biotic Grenade",
+            "description": "Ana tosses a biotic bomb that deals damage to enemies and heals allies in a small area of effect. Affected allies briefly receive increased healing from all sources, while enemies caught in the blast cannot be healed for a few moments.",
+            "type": "projectile",
+            "projectileSpeed": 30,
+            "projectileGravity": ???,
+            "damage": 60,
+            "healing": 100,
+            "effectDuration": 4,
+            "canHeadshot": false,
+            "cooldown": 10
+        }
+    }
+]
